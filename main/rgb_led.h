@@ -18,7 +18,7 @@ typedef struct
     int mode;
     int timer_index;
 }ledc_info_t;
-ledc_info_t ledc_ch[RGB_LED_CHANNEL_NUM]; 
+
 // Creates an array of the struct type with the same size as number of channels
 
 /* 

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "iot_application_esp32",
-    "project_version":    "1",
+    "project_version":    "0833ed8-dirty",
     "project_path":       "C:/Projects/esp/iot_application_esp32",
     "idf_path":           "C:/esp/esp-idf",
     "build_dir":          "C:/Projects/esp/iot_application_esp32/build",
@@ -1180,7 +1180,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Projects/esp/iot_application_esp32/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Projects/esp/iot_application_esp32/main/main.c" ],
+            "sources": [ "C:/Projects/esp/iot_application_esp32/main/rgb_led.c", "C:/Projects/esp/iot_application_esp32/main/main.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
