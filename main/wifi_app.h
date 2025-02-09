@@ -47,7 +47,7 @@ typedef struct wifi_app_queue_message
     @param msgID message id from the wifi_app_message_e enum
     @return pdTRUE if an item was succcessfuly sent to the queue , other wise pdFALSE
  */
-BaseType_t wifi_ap_send_message(wifi_app_message_e msgID);
+BaseType_t wifi_app_send_message(wifi_app_message_e msgID);
 
 /* 
     Starts wifi RTOS task 
