@@ -1,35 +1,34 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-P4 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+# ESP32 WiFi & AWS IoT Application Development
 
-# _Sample project_
+## About This Repository
+This repository contains my learning journey and project work from the Udemy course **"IoT Application Development with the ESP32 using the ESP-IDF."** This course is focused on building a feature-rich WiFi-based application using the **ESP32** and **Espressif IoT Development Framework (ESP-IDF)** while integrating cloud services with **AWS IoT Core** using the **MQTT protocol**.
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+## What I'm Learning
+- Developing WiFi-based applications on the **ESP32** using the **ESP-IDF**.
+- Utilizing **FreeRTOS** for task management and inter-task communication.
+- Configuring **AWS IoT Core** on the ESP32 and using **MQTT** to publish/subscribe messages.
+- Building a **web server** for data visualization and device control.
+- Implementing **Over-the-Air (OTA) firmware updates**.
+- Using **Non-Volatile Storage (NVS)** to save and load WiFi credentials.
+- Working with **ESP-IDF Components & Sensors Library** to integrate peripherals like **DHT22 sensors** and **RGB LEDs**.
+- Leveraging **semaphores, message queues, and event groups** for efficient system operation.
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+## Hardware Used
+- **ESP32 DevKit**
+- **DHT22 Sensor** (for temperature and humidity data)
+- **RGB LED** (for status indication)
+- **Breadboard & Jumper Wires**
 
+## Software & Tools
+- **ESP-IDF Eclipse Plugin (Espressif IDE)**
+- **Google Chrome** (for testing web-based functionality)
+- **AWS IoT Core** (for cloud connectivity)
 
+## Why I'm Taking This Course
+I am deeply passionate about **embedded systems** and want to master ESP32 development using the **ESP-IDF** rather than relying on Arduino. This course helps me build a **modular, scalable, and professional** IoT application while sharpening my **C programming** and **real-time system** skills.
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+## Future Plans
+I plan to use the knowledge gained from this course to work on real-world **embedded IoT projects**, improve my **firmware development skills**, and contribute to **open-source ESP32 projects**.
 
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+---
+🚀 Stay tuned for my project updates and contributions as I progress through this course!
