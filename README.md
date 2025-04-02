@@ -1,3 +1,4 @@
+**STATUS - Work in Progress**
 # ESP32 WiFi & AWS IoT Application Development
 
 ## About This Repository
